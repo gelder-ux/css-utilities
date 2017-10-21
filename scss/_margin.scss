@@ -1,0 +1,128 @@
+$margin-base: 1rem;
+
+// all sides
+.margin-half {
+	margin: $margin-base / 2;
+}
+
+.margin-1 {
+	margin: $margin-base;
+}
+
+.margin-2 {
+	margin: $margin-base * 2;
+}
+
+.margin-3 {
+	margin: $margin-base * 3;
+}
+
+// top
+.margin-top-half {
+	margin-top: $margin-base / 2;
+}
+
+.margin-top-1 {
+	margin-top: $margin-base;
+}
+
+.margin-top-2 {
+	margin-top: $margin-base * 2;
+}
+
+.margin-top-3 {
+	margin-top: $margin-base * 3;
+}
+
+// right
+.margin-right-half {
+	margin-right: $margin-base / 2;
+}
+
+.margin-right-1 {
+	margin-right: $margin-base;
+}
+
+.margin-right-2 {
+	margin-right: $margin-base * 2	;
+}
+
+.margin-right-3 {
+	margin-right: $margin-base * 3;
+}
+
+// bottom
+.margin-bottom-half {
+	margin-bottom: $margin-base / 2;
+}
+
+.margin-bottom-1 {
+	margin-bottom: $margin-base;
+}
+
+.margin-bottom-2 {
+	margin-bottom: $margin-base * 2;
+}
+
+.margin-bottom-3 {
+	margin-bottom: $margin-base * 3;
+}
+
+// left
+.margin-left-half {
+	margin-left: $margin-base / 2	;
+}
+
+.margin-left-1 {
+	margin-left: $margin-base	;
+}
+
+.margin-left-2 {
+	margin-left: $margin-base * 2	;
+}
+
+.margin-left-3 {
+	margin-left: $margin-base * 3;
+}
+
+// x axis
+.margin-x-half {
+	margin-right: $margin-base / 2;
+	margin-left: $margin-base / 2;
+}
+
+.margin-x-1 {
+	margin-right: $margin-base;
+	margin-left: $margin-base;
+}
+
+.margin-x-2 {
+	margin-right: $margin-base * 2;
+	margin-left: $margin-base * 2;
+}
+
+.margin-x-3 {
+	margin-right: $margin-base * 3;
+	margin-left: $margin-base * 3;
+}
+
+// y axis
+.margin-y-half {
+	margin-top: $margin-base / 2;
+	margin-bottom: $margin-base / 2;
+}
+
+.margin-y-1 {
+	margin-top: $margin-base;
+	margin-bottom: $margin-base;
+}
+
+.margin-y-2 {
+	margin-top: $margin-base * 2;
+	margin-bottom: $margin-base * 2;
+}
+
+.margin-y-3 {
+	margin-top: $margin-base * 3;
+	margin-bottom: $margin-base * 3;
+}
