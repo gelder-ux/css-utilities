@@ -1,6 +1,14 @@
-$margin-base: 1rem;
+$margin-base: 1rem !default;
 
 // all sides
+.margin-auto {
+	margin: auto;
+}
+
+.margin-0 {
+	margin: 0;
+}
+
 .margin-half {
 	margin: $margin-base / 2;
 }
@@ -18,6 +26,14 @@ $margin-base: 1rem;
 }
 
 // top
+.margin-top-auto {
+	margin-top: auto;
+}
+
+.margin-top-0 {
+	margin-top: 0;
+}
+
 .margin-top-half {
 	margin-top: $margin-base / 2;
 }
@@ -35,6 +51,14 @@ $margin-base: 1rem;
 }
 
 // right
+.margin-right-auto {
+	margin-right: auto;
+}
+
+.margin-right-0 {
+	margin-right: 0;
+}
+
 .margin-right-half {
 	margin-right: $margin-base / 2;
 }
@@ -52,6 +76,14 @@ $margin-base: 1rem;
 }
 
 // bottom
+.margin-bottom-auto {
+	margin-bottom: auto;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+
 .margin-bottom-half {
 	margin-bottom: $margin-base / 2;
 }
@@ -69,6 +101,14 @@ $margin-base: 1rem;
 }
 
 // left
+.margin-left-auto {
+	margin-left: auto;
+}
+
+.margin-left-0 {
+	margin-left: 0;
+}
+
 .margin-left-half {
 	margin-left: $margin-base / 2	;
 }
@@ -86,6 +126,16 @@ $margin-base: 1rem;
 }
 
 // x axis
+.margin-x-auto {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.margin-x-0 {
+	margin-right: 0;
+	margin-left: 0;
+}
+
 .margin-x-half {
 	margin-right: $margin-base / 2;
 	margin-left: $margin-base / 2;
@@ -107,6 +157,16 @@ $margin-base: 1rem;
 }
 
 // y axis
+.margin-y-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.margin-y-0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .margin-y-half {
 	margin-top: $margin-base / 2;
 	margin-bottom: $margin-base / 2;

@@ -1,6 +1,10 @@
-$padding-base: 1rem;
+$padding-base: 1rem !default;
 
 // all sides
+.padding-0 {
+	padding: 0;
+}
+
 .padding-half {
 	padding: $padding-base / 2;
 }
@@ -18,6 +22,10 @@ $padding-base: 1rem;
 }
 
 // top
+.padding-top-0 {
+	padding-top: 0;
+}
+
 .padding-top-half {
 	padding-top: $padding-base / 2;
 }
@@ -35,6 +43,10 @@ $padding-base: 1rem;
 }
 
 // right
+.padding-right-0 {
+	padding-right: 0;
+}
+
 .padding-right-half {
 	padding-right: $padding-base / 2;
 }
@@ -52,6 +64,10 @@ $padding-base: 1rem;
 }
 
 // bottom
+.padding-bottom-0 {
+	padding-bottom: 0;
+}
+
 .padding-bottom-half {
 	padding-bottom: $padding-base / 2;
 }
@@ -69,6 +85,10 @@ $padding-base: 1rem;
 }
 
 // left
+.padding-left-0 {
+	padding-left: 0;
+}
+
 .padding-left-half {
 	padding-left: $padding-base / 2	;
 }
@@ -86,6 +106,11 @@ $padding-base: 1rem;
 }
 
 // x axis
+.padding-x-0 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 .padding-x-half {
 	padding-right: $padding-base / 2;
 	padding-left: $padding-base / 2;
@@ -107,6 +132,11 @@ $padding-base: 1rem;
 }
 
 // y axis
+.padding-y-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 .padding-y-half {
 	padding-top: $padding-base / 2;
 	padding-bottom: $padding-base / 2;
