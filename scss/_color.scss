@@ -1,0 +1,55 @@
+$primary: blue;
+$secondary: red;
+$tertiary: orange;
+$success: green;
+$warning: yellow;
+$danger: red;
+
+$white: #ffffff;
+$black: #000000;
+
+$gray: #333;
+$gray-light: #efefef;
+$gray-dark: #222;
+
+// background color
+.bg-primary {
+	background-color: $color-primary;
+}
+
+.bg-secondary {
+	background-color: $color-secondary;
+}
+
+.bg-tertiary {
+	background-color: $color-tertiary;
+}
+
+.bg-success {
+	background-color: $color-success;
+}
+
+.bg-warning {
+	background-color: $color-warning;
+}
+
+.bg-danger {
+	background-color: $color-danger;
+}
+
+.bg-white {
+	background-color: $color-white;
+}
+
+.bg-gray-light {
+	background-color: $color-gray-light;
+}
+
+.bg-gray-dark {
+	background-color: $color-gray-dark;
+}
+
+// text color
+.text-white {
+	color: $color-white;
+}

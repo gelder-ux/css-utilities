@@ -13,68 +13,162 @@
 	<h1>CSS Utilities</h1>
 	<p>Lightweight library of scss files meant to speed up prototyping. Each class is only responsible for one purpose, as indicated by the selector names. For example the ".display-flex" class sets the "display" property to "flex".</p>
 	<section id="flex">
-		<h2>Flex</h2>
+		<h2>Flexbox</h2>
 		<p>Flexbox utility classes</p>
 		<h3>Justify Content</h3>
 		<div class="margin-bottom-3">
 			<h4>Start</h4>
-			<p>Classes used on wrapper div: <strong>display-flex justify-content-start padding-1 border</strong></p>
+			<p>Classes used on wrapper div: display-flex <strong>justify-content-start</strong> padding-1 border</p>
 			<div class="display-flex justify-content-start padding-1 border">
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
 				</div>
 			</div>
 		</div>
 
 		<div class="margin-bottom-3">
 			<h4>End</h4>
-			<p>Classes used on wrapper div: <strong>display-flex .justify-content-end padding-1 border</strong></p>
+			<p>Classes used on wrapper div: display-flex <strong>justify-content-end</strong> padding-1 border</p>
 			<div class="display-flex justify-content-end padding-1 border">
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
 				</div>
 			</div>
 		</div>
 
 		<div class="margin-bottom-3">
 			<h4>Between</h4>
-			<p>Classes used on wrapper div: <strong>display-flex justify-content-between padding-1 border</strong></p>
+			<p>Classes used on wrapper div: display-flex <strong>justify-content-between</strong> padding-1 border</p>
 			<div class="display-flex justify-content-between padding-1 border">
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
 				</div>
 			</div>
 		</div>
 
 		<div class="margin-bottom-3">
 			<h4>Around</h4>
-			<p>Classes used on wrapper div: <strong>display-flex justify-content-around padding-1 border</strong></p>
+			<p>Classes used on wrapper div: display-flex <strong>justify-content-around</strong> padding-1 border</p>
 			<div class="display-flex justify-content-around padding-1 border">
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
 				</div>
-				<div style="width:200px; height: 200px; border: 1px solid black;">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
 				</div>
 			</div>
 		</div>
+
+		<h3>Direction</h3>
+		<div class="margin-bottom-3">
+			<h4>Row</h4>
+			<p>Classes used on wrapper div: display-flex <strong>flex-direction-row</strong> padding-1 border</p>
+			<div class="display-flex flex-direction-row padding-1 border">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
+				</div>
+			</div>
+		</div>
+
+		<div class="margin-bottom-3">
+			<h4>Row-reverse</h4>
+			<p>Classes used on wrapper div: display-flex <strong>flex-direction-row-reverse</strong> padding-1 border</p>
+			<div class="display-flex flex-direction-row-reverse padding-1 border">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
+				</div>
+			</div>
+		</div>
+
+		<div class="margin-bottom-3">
+			<h4>Column</h4>
+			<p>Classes used on wrapper div: display-flex <strong>flex-direction-column</strong> padding-1 border</p>
+			<div class="display-flex flex-direction-column padding-1 border">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
+				</div>
+			</div>
+		</div>
+
+		<div class="margin-bottom-3">
+			<h4>Column-reverse</h4>
+			<p>Classes used on wrapper div: display-flex <strong>flex-direction-column-reverse</strong> padding-1 border</p>
+			<div class="display-flex flex-direction-column-reverse padding-1 border">
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					1
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					2
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					3
+				</div>
+				<div class="display-flex align-items-center justify-content-center padding-1 border" style="width:50px; height: 50px; ">
+					4
+				</div>
+			</div>
+		</div>
+
 	</section>
 
 	<section id="spacing">
@@ -82,17 +176,58 @@
 		<h3>Padding</h3>
 		<h4>All sides</h4>
 		<div class="display-flex justify-content-between align-items-center">
-			<div class="padding-half" style="width:50px; height: 50px; border: 1px solid black;">
-				.padding-half
+			<div class="padding-half border bg-success" style="width:100px; height: 100px; ">
+				<div class="width-100-percent height-100-percent display-flex justify-content-center align-items-center bg-white">
+					.padding-half
+				</div>
 			</div>
-			<div class="padding-1" style="width:50px; height: 50px; border: 1px solid black;">
-				.padding-1
+			<div class="padding-1 border bg-success" style="width:100px; height: 100px; ">
+				<div class="width-100-percent height-100-percent display-flex justify-content-center align-items-center bg-white">
+					.padding-1
+				</div>
 			</div>
-			<div class="padding-2" style="width:50px; height: 50px; border: 1px solid black;">
-				.padding-2
+			<div class="padding-2 border bg-success" style="width:100px; height: 100px; ">
+				<div class="width-100-percent height-100-percent display-flex justify-content-center align-items-center bg-white">
+					.padding-2
+				</div>
 			</div>
-			<div class="padding-3" style="width:50px; height: 50px; border: 1px solid black;">
-				.padding-3
+			<div class="padding-3 border bg-success" style="width:100px; height: 100px; ">
+				<div class="width-100-percent height-100-percent display-flex justify-content-center align-items-center bg-white">
+					.padding-3
+				</div>
+			</div>
+		</div>
+
+		<h3>Margin</h3>
+		<h4>All sides</h4>
+		<div class="display-flex justify-content-between align-items-center">
+			<div class="bg-warning">
+				<div class="margin-half border bg-white">
+					<div class="display-flex justify-content-center align-items-center" style="width: 100px; height: 100px;">
+						.margin-half
+					</div>
+				</div>
+			</div>
+			<div class="bg-warning">
+				<div class="margin-1 border bg-white">
+					<div class="display-flex justify-content-center align-items-center" style="width: 100px; height: 100px;">
+						.margin-1
+					</div>
+				</div>
+			</div>
+			<div class="bg-warning">
+				<div class="margin-2 border bg-white">
+					<div class="display-flex justify-content-center align-items-center" style="width: 100px; height: 100px;">
+						.margin-2
+					</div>
+				</div>
+			</div>
+			<div class="bg-warning">
+				<div class="margin-3 border bg-white">
+					<div class="display-flex justify-content-center align-items-center" style="width: 100px; height: 100px;">
+						.margin-3
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

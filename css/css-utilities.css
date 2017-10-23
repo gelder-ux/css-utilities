@@ -1,5 +1,35 @@
+.bg-primary {
+  background-color: blue; }
+
+.bg-secondary {
+  background-color: red; }
+
+.bg-tertiary {
+  background-color: purple; }
+
+.bg-success {
+  background-color: #e1ffe1; }
+
+.bg-warning {
+  background-color: orange; }
+
+.bg-danger {
+  background-color: red; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.bg-gray-light {
+  background-color: #efefef; }
+
+.bg-gray-dark {
+  background-color: #222; }
+
+.text-white {
+  color: #ffffff; }
+
 .border {
-  border: 1px solid black; }
+  border: 1px solid #222; }
 
 .display-flex {
   display: flex; }
@@ -328,3 +358,9 @@
 .padding-y-3 {
   padding-top: 3rem;
   padding-bottom: 3rem; }
+
+.height-100-percent {
+  height: 100%; }
+
+.width-100-percent {
+  width: 100%; }
