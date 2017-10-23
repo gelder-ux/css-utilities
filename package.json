@@ -18,6 +18,9 @@
   "homepage": "https://github.com/gelder-ux/css-utilities#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
   }
 }
