@@ -47,7 +47,7 @@
   flex-direction: column-reverse; }
 
 .flex-wrap {
-  flex-wrap: no-wrap; }
+  flex-wrap: wrap; }
 
 .flex-nowrap {
   flex-wrap: nowrap; }

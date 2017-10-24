@@ -32,4 +32,3 @@ gulp.task('dist',['styles', 'clean-dist', 'minify-css' ], function(e){} )
 gulp.task('default', function() {
     gulp.watch('scss/**/*.scss',['styles', 'clean-dist', 'minify-css' ]);
 });
-
