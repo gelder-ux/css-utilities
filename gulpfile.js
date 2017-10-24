@@ -4,20 +4,20 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var clean = require('gulp-clean');
 
-//Make CSS
+// Make CSS
 gulp.task('styles', function() {
     gulp.src('scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css/'));
 });
 
-//Clean Folder
+// Clean Folder
 gulp.task('clean-dist', function () {
     gulp.src('dist/css', {read: false})
         .pipe(clean());
 });
 
-//Minify CSS
+// Minify CSS
 gulp.task('minify-css', function() {
     return gulp.src('./css/**/*.css')
         .pipe(cleanCSS())
@@ -25,10 +25,10 @@ gulp.task('minify-css', function() {
         .pipe(gulp.dest('./dist/css/'));
 });
 
-//just dist run task
+// just dist run task
 gulp.task('dist',['styles', 'clean-dist', 'minify-css' ], function(e){} )
 
-//Watch task
+// Watch task
 gulp.task('default', function() {
     gulp.watch('scss/**/*.scss',['styles', 'clean-dist', 'minify-css' ]);
 });
