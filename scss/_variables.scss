@@ -1,17 +1,17 @@
 // colors
-$color-primary: blue;
-$color-secondary: red;
-$color-tertiary: purple;
-$color-success: #e1ffe1;
-$color-warning: orange;
-$color-danger: red;
+$color-primary: blue !default;
+$color-secondary: red !default;
+$color-tertiary: purple !default;
+$color-success: #e1ffe1 !default;
+$color-warning: orange !default;
+$color-danger: red !default;
 
-$color-white: #ffffff;
-$color-black: #000000;
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
 
-$color-gray: #333;
-$color-gray-light: #efefef;
-$color-gray-dark: #222;
+$color-gray: #333 !default;
+$color-gray-light: #efefef !default;
+$color-gray-dark: #222 !default;
 
 // spacing
 $margin-base: 1rem !default;

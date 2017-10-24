@@ -18,7 +18,7 @@ gulp.task('clean-dist', function () {
 });
 
 //Minify CSS
-gulp.task('minify-css',function() {
+gulp.task('minify-css', function() {
     return gulp.src('./css/**/*.css')
         .pipe(cleanCSS())
         .pipe(rename({ suffix: '.min' }))
@@ -29,7 +29,7 @@ gulp.task('minify-css',function() {
 gulp.task('dist',['styles', 'clean-dist', 'minify-css' ], function(e){} )
 
 //Watch task
-gulp.task('default',function() {
+gulp.task('default', function() {
     gulp.watch('scss/**/*.scss',['styles', 'clean-dist', 'minify-css' ]);
 });
 
