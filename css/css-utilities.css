@@ -19,14 +19,50 @@
 .bg-white {
   background-color: #ffffff; }
 
+.bg-black {
+  background-color: #000000; }
+
+.bg-gray {
+  background-color: #333; }
+
 .bg-gray-light {
   background-color: #efefef; }
 
 .bg-gray-dark {
   background-color: #222; }
 
+.text-primary {
+  color: blue; }
+
+.text-secondary {
+  color: red; }
+
+.text-tertiary {
+  color: purple; }
+
+.text-success {
+  color: #e1ffe1; }
+
+.text-warning {
+  color: orange; }
+
+.text-danger {
+  color: red; }
+
 .text-white {
   color: #ffffff; }
+
+.text-black {
+  color: #000000; }
+
+.text-gray {
+  color: #333; }
+
+.text-gray-light {
+  color: #efefef; }
+
+.text-gray-dark {
+  color: #222; }
 
 .border {
   border: 1px solid #222; }

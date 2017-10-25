@@ -27,6 +27,14 @@
 	background-color: $color-white;
 }
 
+.bg-black {
+	background-color: $color-black;
+}
+
+.bg-gray {
+	background-color: $color-gray;
+}
+
 .bg-gray-light {
 	background-color: $color-gray-light;
 }
@@ -36,10 +44,46 @@
 }
 
 // text color
+.text-primary {
+	color: $color-primary;
+}
+
+.text-secondary {
+	color: $color-secondary;
+}
+
+.text-tertiary {
+	color: $color-tertiary;
+}
+
+.text-success {
+	color: $color-success;
+}
+
+.text-warning {
+	color: $color-warning;
+}
+
+.text-danger {
+	color: $color-danger;
+}
+
 .text-white {
 	color: $color-white;
 }
 
-.text-primary {
-	background-color: $color-primary;
+.text-black {
+	color: $color-black;
+}
+
+.text-gray {
+	color: $color-gray;
+}
+
+.text-gray-light {
+	color: $color-gray-light;
+}
+
+.text-gray-dark {
+	color: $color-gray-dark;
 }
