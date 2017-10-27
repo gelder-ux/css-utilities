@@ -1,34 +1,46 @@
+// Gulp workflow from: https://www.sitepoint.com/simple-gulpy-workflow-sass/
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
-var rename = require('gulp-rename');
-var clean = require('gulp-clean');
+var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
+var del = require('del');
 
-// Make CSS
-gulp.task('styles', function() {
-    gulp.src('scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css/'));
+var input = './scss/**/*.scss';
+var output = './dist/css';
+
+var sassOptions = {
+    errLogToConsole: true,
+    outputStyle: 'compressed'
+};
+
+// Clean
+gulp.task('clean', function() {
+    return del('dist/**', {force:true})
+        .then(paths => {
+            console.log('Deleted files and folders:\n', paths.join('\n'))
+        });
 });
 
-// Clean Folder
-gulp.task('clean-dist', function () {
-    gulp.src('dist/css', {read: false})
-        .pipe(clean());
+// Sass
+gulp.task('sass', function() {
+    return gulp
+        .src(input)
+        .pipe(sourcemaps.init())
+        .pipe(sass(sassOptions).on('error', sass.logError))
+        .pipe(sourcemaps.write())
+        .pipe(autoprefixer())
+        .pipe(gulp.dest(output))
 });
 
-// Minify CSS
-gulp.task('minify-css', function() {
-    return gulp.src('./css/**/*.css')
-        .pipe(cleanCSS())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./dist/css/'));
+// Watch
+gulp.task('watch', function() {
+    return gulp 
+        .watch(input, ['clean', 'sass'])
+        .on('change', function(event) {
+            console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+        })
 });
 
-// just dist run task
-gulp.task('dist',['styles', 'clean-dist', 'minify-css' ], function(e){} )
-
-// Watch task
-gulp.task('default', function() {
-    gulp.watch('scss/**/*.scss',['styles', 'clean-dist', 'minify-css' ]);
-});
+// Default
+gulp.task('default', ['sass', 'watch']);
